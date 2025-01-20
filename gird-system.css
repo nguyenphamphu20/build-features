@@ -21,8 +21,6 @@
     max-width: var(--max-width);
 }
 
-
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -34,7 +32,28 @@
 }
 
 [class*="col-"] {
-    flex:  0 0 auto;
+    flex: 0 0 auto;
+    width: calc((var(--max-width) / 12) * var(--number-column));
+}
+
+[class*="auto"] {
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: auto;
+}
+
+/* Format */
+.text-center {
+    text-align: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-center > [class*="col"]:not([class*="auto"]) {
+    flex: 0 0 auto;
     width: calc((var(--max-width) / 12) * var(--number-column));
 }
 
@@ -92,6 +111,16 @@
         --max-width: 540px;
     }
 
+    /* Format */
+    .justify-content-sm-center {
+        justify-content: center;
+    }
+
+    .justify-content-sm-center > [class*="col"]:not([class*="auto"]) {
+        flex: 0 0 auto;
+        width: calc((var(--max-width) / 12) * var(--number-column));
+    }
+
     .col-sm-1 {
         --number-column: 1;
     }
@@ -145,6 +174,16 @@
 @media (min-width: 768px) {
     .container {
         --max-width: 720px;
+    }
+
+    /* Format */
+    .justify-content-md-center {
+        justify-content: center;
+    }
+
+    .justify-content-md-center > [class*="col"]:not([class*="auto"]) {
+        flex: 0 0 auto;
+        width: calc((var(--max-width) / 12) * var(--number-column));
     }
 
     .col-md-1 {
@@ -202,6 +241,16 @@
         --max-width: 960px;
     }
 
+    /* Format */
+    .justify-content-lg-center {
+        justify-content: center;
+    }
+
+    .justify-content-lg-center > [class*="col"]:not([class*="auto"]) {
+        flex: 0 0 auto;
+        width: calc((var(--max-width) / 12) * var(--number-column));
+    }
+
     .col-lg-1 {
         --number-column: 1;
     }
@@ -255,6 +304,16 @@
 @media (min-width: 1200px) {
     .container {
         --max-width: 1140px;
+    }
+
+    /* Format */
+    .justify-content-xl-center {
+        justify-content: center;
+    }
+
+    .justify-content-xl-center > [class*="col"]:not([class*="auto"]) {
+        flex: 0 0 auto;
+        width: calc((var(--max-width) / 12) * var(--number-column));
     }
 
     .col-xl-1 {
@@ -312,6 +371,16 @@
         --max-width: 1320px;
     }
 
+    /* Format */
+    .justify-content-xxl-center {
+        justify-content: center;
+    }
+
+    .justify-content-xxl-center > [class*="col"]:not([class*="auto"]) {
+        flex: 0 0 auto;
+        width: calc((var(--max-width) / 12) * var(--number-column));
+    }
+
     .col-xxl-1 {
         --number-column: 1;
     }
@@ -360,3 +429,5 @@
         --number-column: 12;
     }
 }
+
+/* prioritize format */
