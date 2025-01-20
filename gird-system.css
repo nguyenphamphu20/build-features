@@ -18,7 +18,7 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    max-width: var(--max-width);
+    max-width: calc(var(--max-width) + 30px);
 }
 
 .row {
@@ -121,6 +121,11 @@
         width: calc((var(--max-width) / 12) * var(--number-column));
     }
 
+    [class*="col-sm"] {
+        border: 1px red dashed;
+        flex: 1;
+    }
+
     .col-sm-1 {
         --number-column: 1;
     }
@@ -184,6 +189,11 @@
     .justify-content-md-center > [class*="col"]:not([class*="auto"]) {
         flex: 0 0 auto;
         width: calc((var(--max-width) / 12) * var(--number-column));
+    }
+
+    [class*="col-md"] {
+        border: 1px red dashed;
+        flex: 1;
     }
 
     .col-md-1 {
@@ -251,6 +261,11 @@
         width: calc((var(--max-width) / 12) * var(--number-column));
     }
 
+    [class*="col-lg"] {
+        border: 1px red dashed;
+        flex: 1;
+    }
+
     .col-lg-1 {
         --number-column: 1;
     }
@@ -316,6 +331,11 @@
         width: calc((var(--max-width) / 12) * var(--number-column));
     }
 
+    [class*="col-xl"] {
+        border: 1px red dashed;
+        flex: 1;
+    }
+
     .col-xl-1 {
         --number-column: 1;
     }
@@ -379,6 +399,11 @@
     .justify-content-xxl-center > [class*="col"]:not([class*="auto"]) {
         flex: 0 0 auto;
         width: calc((var(--max-width) / 12) * var(--number-column));
+    }
+    
+    [class*="col-xxl"] {
+        border: 1px red dashed;
+        flex: 1;
     }
 
     .col-xxl-1 {
