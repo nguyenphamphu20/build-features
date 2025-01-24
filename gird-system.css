@@ -236,6 +236,55 @@
     .col-sm-12 {
         --number-column: 12;
     }
+
+    .row-cols-sm-1 {
+        --cols-per-row: 1;
+    }
+    
+    .row-cols-sm-2 {
+        --cols-per-row: 2;
+    }
+    
+    .row-cols-sm-3 {
+        --cols-per-row: 3;
+    }
+    
+    .row-cols-sm-4 {
+        --cols-per-row: 4;
+    }
+    
+    .row-cols-sm-5 {
+        --cols-per-row: 5;
+    }
+    
+    .row-cols-sm-6 {
+        --cols-per-row: 6;
+    }
+    
+    .row-cols-sm-7 {
+        --cols-per-row: 7;
+    }
+    
+    .row-cols-sm-8 {
+        --cols-per-row: 8;
+    }
+    
+    .row-cols-sm-9 {
+        --cols-per-row: 9;
+    }
+    
+    .row-cols-sm-10 {
+        --cols-per-row: 10;
+    }
+    
+    .row-cols-sm-11 {
+        --cols-per-row: 11;
+    }
+    
+    .row-cols-sm-12 {
+        --cols-per-row: 12;
+    }
+    
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -309,6 +358,54 @@
 
     .col-md-12 {
         --number-column: 12;
+    }
+
+    .row-cols-md-1 {
+        --cols-per-row: 1;
+    }
+    
+    .row-cols-md-2 {
+        --cols-per-row: 2;
+    }
+    
+    .row-cols-md-3 {
+        --cols-per-row: 3;
+    }
+    
+    .row-cols-md-4 {
+        --cols-per-row: 4;
+    }
+    
+    .row-cols-md-5 {
+        --cols-per-row: 5;
+    }
+    
+    .row-cols-md-6 {
+        --cols-per-row: 6;
+    }
+    
+    .row-cols-md-7 {
+        --cols-per-row: 7;
+    }
+    
+    .row-cols-md-8 {
+        --cols-per-row: 8;
+    }
+    
+    .row-cols-md-9 {
+        --cols-per-row: 9;
+    }
+    
+    .row-cols-md-10 {
+        --cols-per-row: 10;
+    }
+    
+    .row-cols-md-11 {
+        --cols-per-row: 11;
+    }
+    
+    .row-cols-md-12 {
+        --cols-per-row: 12;
     }
 }
 
@@ -385,6 +482,54 @@
     .col-lg-12 {
         --number-column: 12;
     }
+
+    .row-cols-lg-1 {
+        --cols-per-row: 1;
+    }
+    
+    .row-cols-lg-2 {
+        --cols-per-row: 2;
+    }
+    
+    .row-cols-lg-3 {
+        --cols-per-row: 3;
+    }
+    
+    .row-cols-lg-4 {
+        --cols-per-row: 4;
+    }
+    
+    .row-cols-lg-5 {
+        --cols-per-row: 5;
+    }
+    
+    .row-cols-lg-6 {
+        --cols-per-row: 6;
+    }
+    
+    .row-cols-lg-7 {
+        --cols-per-row: 7;
+    }
+    
+    .row-cols-lg-8 {
+        --cols-per-row: 8;
+    }
+    
+    .row-cols-lg-9 {
+        --cols-per-row: 9;
+    }
+    
+    .row-cols-lg-10 {
+        --cols-per-row: 10;
+    }
+    
+    .row-cols-lg-11 {
+        --cols-per-row: 11;
+    }
+    
+    .row-cols-lg-12 {
+        --cols-per-row: 12;
+    }
 }
 
 /* X-Large devices (large desktops, 1200px and up)*/
@@ -458,6 +603,54 @@
 
     .col-xl-12 {
         --number-column: 12;
+    }
+
+    .row-cols-xl-1 {
+        --cols-per-row: 1;
+    }
+    
+    .row-cols-xl-2 {
+        --cols-per-row: 2;
+    }
+    
+    .row-cols-xl-3 {
+        --cols-per-row: 3;
+    }
+    
+    .row-cols-xl-4 {
+        --cols-per-row: 4;
+    }
+    
+    .row-cols-xl-5 {
+        --cols-per-row: 5;
+    }
+    
+    .row-cols-xl-6 {
+        --cols-per-row: 6;
+    }
+    
+    .row-cols-xl-7 {
+        --cols-per-row: 7;
+    }
+    
+    .row-cols-xl-8 {
+        --cols-per-row: 8;
+    }
+    
+    .row-cols-xl-9 {
+        --cols-per-row: 9;
+    }
+    
+    .row-cols-xl-10 {
+        --cols-per-row: 10;
+    }
+    
+    .row-cols-xl-11 {
+        --cols-per-row: 11;
+    }
+    
+    .row-cols-xl-12 {
+        --cols-per-row: 12;
     }
 }
 
@@ -533,6 +726,54 @@
 
     .col-xxl-12 {
         --number-column: 12;
+    }
+
+    .row-cols-xxl-1 {
+        --cols-per-row: 1;
+    }
+    
+    .row-cols-xxl-2 {
+        --cols-per-row: 2;
+    }
+    
+    .row-cols-xxl-3 {
+        --cols-per-row: 3;
+    }
+    
+    .row-cols-xxl-4 {
+        --cols-per-row: 4;
+    }
+    
+    .row-cols-xxl-5 {
+        --cols-per-row: 5;
+    }
+    
+    .row-cols-xxl-6 {
+        --cols-per-row: 6;
+    }
+    
+    .row-cols-xxl-7 {
+        --cols-per-row: 7;
+    }
+    
+    .row-cols-xxl-8 {
+        --cols-per-row: 8;
+    }
+    
+    .row-cols-xxl-9 {
+        --cols-per-row: 9;
+    }
+    
+    .row-cols-xxl-10 {
+        --cols-per-row: 10;
+    }
+    
+    .row-cols-xxl-11 {
+        --cols-per-row: 11;
+    }
+    
+    .row-cols-xxl-12 {
+        --cols-per-row: 12;
     }
 }
 
