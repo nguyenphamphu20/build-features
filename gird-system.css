@@ -7,6 +7,7 @@
 :root {
     --max-width: 100%;
     --number-column: 1;
+    --cols-per-row: 1;
     --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
 }
 
@@ -35,6 +36,13 @@
     flex: 1 0 100%;
     width: calc((var(--max-width) / 12) * var(--number-column));
     /* Create responsive for col */
+}
+
+.col {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: rgba(var(--bd-violet-rgb), 0.15);
+    border: 1px solid rgba(var(--bd-violet-rgb), 0.3);
 }
 
 .col,
@@ -97,6 +105,63 @@
 
 .col-12 {
     --number-column: 12;
+}
+
+.row[class*="row-cols-"] > .col {
+    width: calc(100% / var(--cols-per-row));
+    flex: 0 0 auto;
+}
+
+.row[class*="row-cols-"] > [class*="col-"] {
+    flex: initial;
+}
+
+.row-cols-1 {
+    --cols-per-row: 1;
+}
+
+.row-cols-2 {
+    --cols-per-row: 2;
+}
+
+.row-cols-3 {
+    --cols-per-row: 3;
+}
+
+.row-cols-4 {
+    --cols-per-row: 4;
+}
+
+.row-cols-5 {
+    --cols-per-row: 5;
+}
+
+.row-cols-6 {
+    --cols-per-row: 6;
+}
+
+.row-cols-7 {
+    --cols-per-row: 7;
+}
+
+.row-cols-8 {
+    --cols-per-row: 8;
+}
+
+.row-cols-9 {
+    --cols-per-row: 9;
+}
+
+.row-cols-10 {
+    --cols-per-row: 10;
+}
+
+.row-cols-11 {
+    --cols-per-row: 11;
+}
+
+.row-cols-12 {
+    --cols-per-row: 12;
 }
 
 /* Small devices (landscape phones, 576px and up)*/
